@@ -11,11 +11,17 @@ I due LED servono a visualizzare lo stato delle due elettrovalvole delle zone.
 All'avvio, l'apparato mostra, sulla prima riga, l'ora corrente nel formato “hh:mm:ss” e, sulla
 seconda riga, la temperatura misurata dal trasduttore.
 Premendo in successione il tasto “MODE” è possibile visualizzare rispettivamente:
-1- temperatura massima della giornata;
-3- ora di inizio irrigazione della zona A;
-4- ora di fine irrigazione della zona A;
-5- ora di inizio irrigazione della zona B;
-6- ora di fine irrigazione della zona B.
+
+1) temperatura massima della giornata;
+
+3) ora di inizio irrigazione della zona A;
+
+4) ora di fine irrigazione della zona A;
+
+5) ora di inizio irrigazione della zona B;
+
+6) ora di fine irrigazione della zona B.
+
 Per ogni visualizzazione di orario, ora corrente o di irrigazione, è possibile programmare il
 valore voluto premendo il tasto SET. In questo caso, con MODE è possibile incrementare il valore.
 Si passa da ore a minuti premendo il tasto SET. Il diagramma mostrato nella figura della pagina
