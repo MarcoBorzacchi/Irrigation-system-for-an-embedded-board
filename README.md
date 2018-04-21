@@ -3,7 +3,7 @@
 Il progetto riguarda l'implementazione di un sistema di controllo di un impianto di irrigazione per un giardino diviso in due
 zone. Il sistema dispone di un LCD, due pulsanti di comando e
 due LED. Inoltre, il circuito acquisisce il valore della temperatura ambiente T AMB con un trasduttore
-di temperatura (simulato con un trimmer collegato tra V DD e GND).
+di temperatura (simulato con un trimmer collegato tra VDD e GND).
 Il trasduttore fornisce in decine di mV il valore di temperatura in Celsius (p. es., a 20°C, il
 trasduttore fornisce ai suoi capi 0.2V. Inoltre, per una variazione di temperatura di 1 °C, la tensione
 d'uscita del trasduttore varia di 10 mV).
