@@ -1,7 +1,7 @@
 # Irrigation-system-for-an-embedded-board
 
 Il progetto riguarda l'implementazione di un sistema di controllo di un impianto di irrigazione per un giardino diviso in due
-zone. Ll sistema dispone di un LCD, due pulsanti di comando e
+zone. Il sistema dispone di un LCD, due pulsanti di comando e
 due LED. Inoltre, il circuito acquisisce il valore della temperatura ambiente T AMB con un trasduttore
 di temperatura (simulato con un trimmer collegato tra V DD e GND).
 Il trasduttore fornisce in decine di mV il valore di temperatura in Celsius (p. es., a 20°C, il
