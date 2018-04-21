@@ -1,22 +1,8 @@
 /****************************************************************************
  *   $Id:: tmrtest.c 6098 2011-01-08 02:26:20Z nxp12832                      $
- *   Project: NXP LPC17xx Timer example
- *
- *   Description:
- *     This file contains Timer test modules, main entry, to test Timer APIs.
- *
- ****************************************************************************
- * Software that is described herein is for illustrative purposes only
- * which provides customers with programming information regarding the
- * products. This software is supplied "AS IS" without any warranties.
- * NXP Semiconductors assumes no responsibility or liability for the
- * use of the software, conveys no license or title under any patent,
- * copyright, or mask work right to the product. NXP Semiconductors
- * reserves the right to make changes in the software without
- * notification. NXP Semiconductors also make no representation or
- * warranty that such application will be suitable for the specified
- * use without further testing or modification.
+ *   Project: NXP LPC17xx Irrigation system
 ****************************************************************************/
+
 #include <cr_section_macros.h>
 #include <NXP/crp.h>
 
@@ -31,14 +17,6 @@ __CRP const unsigned int CRP_WORD = CRP_NO_CRP ;
 #include "HD44780.h"
 #include "irrigazione.h"
 #include "ADC.h"
-
-// unica cosa che non ho tenuto in considerazione è che se stanno entrambe a cavallo la temperatura
-// viene resettata per A anche se il periodo di B è più lungo
-// poi se un timer è impostato a cavallo tra meno di 8 e più di 8 ma nella forma
-// es Campo B dalle 6 di mattina fino all 1 del giorno dopo non aspetta per resettare la t_max
-// ma la resetta alle 8:00
-
-///////////////////////////////////////////////////////////////////////////////////////////////
 
 
 //ora A
